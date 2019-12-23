@@ -33,6 +33,13 @@ function displayWeatherCondition(response) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  document.querySelector("#pressure").innerHTML = response.data.main.pressure;
+  document.querySelector("#temp_min").innerHTML = Math.round(
+    response.data.main.temp_min
+  );
+  document.querySelector("#temp_max").innerHTML = Math.round(
+    response.data.main.temp_max
+  );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
 }

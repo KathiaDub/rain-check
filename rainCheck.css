@@ -37,14 +37,13 @@ p {
   text-align: left;
 }
 ul {
-  text-align: right;
   font-size: 10 px;
+  text-align: center;
 }
 
 li {
   color: #7c7c7c;
   list-style: none;
-  text-align: center;
 }
 
 button {
